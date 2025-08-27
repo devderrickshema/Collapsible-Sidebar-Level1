@@ -1106,7 +1106,7 @@ class CollapsibleSidebar {
             // Ctrl + B to toggle sidebar (desktop only)
             if (e.ctrlKey && e.key === 'b' && !this.isMobile) {
                 e.preventDefault();
-                this.toggleCollapse();
+                this.toggleSidebar(); // <-- fix: use correct method
             }
         });
     }
