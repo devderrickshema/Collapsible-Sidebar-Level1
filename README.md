@@ -100,30 +100,6 @@ The sidebar is highly customizable through CSS variables and JavaScript configur
 - **Screen Reader Friendly**: Semantic HTML and ARIA labels
 - **Focus Management**: Proper focus handling for accessibility
 
-## 📊 Browser Support
-
-| Browser | Version | Status |
-|---------|---------|--------|
-| Chrome  | 90+     | ✅ Full Support |
-| Firefox | 88+     | ✅ Full Support |
-| Safari  | 14+     | ✅ Full Support |
-| Edge    | 90+     | ✅ Full Support |
-
-## 🔮 Future Enhancements
-
-- [ ] **Theme Switcher** - Light/Dark mode toggle
-- [ ] **User Preferences** - Customizable sidebar behavior
-- [ ] **Animation Library** - Additional transition effects
-- [ ] **PWA Support** - Progressive Web App capabilities
-- [ ] **Accessibility Audit** - Enhanced screen reader support
-
-## 📈 Performance Metrics
-
-- **Lighthouse Score**: 95+ (Performance, Accessibility, Best Practices)
-- **Load Time**: < 1 second
-- **Bundle Size**: < 50KB total
-- **Mobile Responsive**: 100% compatible
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -155,3 +131,4 @@ If you have any questions or need help with this project:
 3. **Email Support** - shederrick03@gmail.com
 
 ---
+
