@@ -1,4 +1,4 @@
-# 🎯 Level 1 - Collapsible Sidebar (Elevvo Internship Project)
+# Level 1 - Collapsible Sidebar (Elevvo Internship Project)
 
 A modern, responsive collapsible sidebar component built with HTML, CSS, and JavaScript. Developed as part of my frontend web development internship at Elevvo, this project demonstrates advanced UI/UX design principles with smooth animations, responsive behavior, and professional styling
 
@@ -131,4 +131,5 @@ If you have any questions or need help with this project:
 3. **Email Support** - shederrick03@gmail.com
 
 ---
+
 
