@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 1 Task 1 - Collapsible Sidebar</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Hamburger Menu Toggle -->
+        <button class="hamburger-toggle" id="hamburgerToggle">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h2 class="logo-text">Elevvo</h2>
+                <p class="logo-subtitle">Internship Portal</p>
+            </div>
+
+            <nav class="sidebar-nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" data-page="dashboard">
+                            <i class="nav-icon fas fa-home"></i>
+                            <span class="nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-page="projects">
+                            <i class="nav-icon fas fa-folder-open"></i>
+                            <span class="nav-text">My Projects</span>
+                            <span class="nav-badge">3</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-page="tasks">
+                            <i class="nav-icon fas fa-tasks"></i>
+                            <span class="nav-text">Tasks</span>
+                            <span class="nav-badge">12</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-page="progress">
+                            <i class="nav-icon fas fa-chart-line"></i>
+                            <span class="nav-text">Progress</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-page="resources">
+                            <i class="nav-icon fas fa-book"></i>
+                            <span class="nav-text">Resources</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-page="mentors">
+                            <i class="nav-icon fas fa-users"></i>
+                            <span class="nav-text">Mentors</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="nav-divider"></div>
+
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-page="profile">
+                            <i class="nav-icon fas fa-user"></i>
+                            <span class="nav-text">Profile</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-page="settings">
+                            <i class="nav-icon fas fa-cog"></i>
+                            <span class="nav-text">Settings</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-page="help">
+                            <i class="nav-icon fas fa-question-circle"></i>
+                            <span class="nav-text">Help</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content" id="mainContent">
+            <header class="content-header">
+                <h1 class="page-title" id="pageTitle">
+                    <i class="fas fa-home"></i>
+                    Dashboard Overview
+                </h1>
+                <div class="user-info">
+                    <div class="user-avatar">DS</div>
+                </div>
+            </header>
+
+            <div class="content-body" id="contentBody">
+                <!-- Dashboard Content -->
+                <div class="dashboard-content">
+                    <div class="welcome-section">
+                        <h2>Welcome to Your Internship Portal! </h2>
+                        <p>Track your progress, manage tasks, and connect with mentors all in one place.</p>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-calendar-check"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h3 class="stat-number">14</h3>
+                                <p class="stat-label">Days Remaining</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-tasks"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h3 class="stat-number">12</h3>
+                                <p class="stat-label">Active Tasks</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h3 class="stat-number">3</h3>
+                                <p class="stat-label">Completed Projects</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h3 class="stat-number">85%</h3>
+                                <p class="stat-label">Overall Progress</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="progress-section">
+                        <h3>Internship Progress</h3>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%"></div>
+                        </div>
+                        <p class="progress-text">85% Complete - Keep up the great work!</p>
+                    </div>
+
+                    <div class="recent-activity">
+                        <h3>Recent Activity</h3>
+                        <div class="activity-list">
+                            <div class="activity-item">
+                                <div class="activity-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="activity-content">
+                                    <h4>Task Completed</h4>
+                                    <p>Level 1 - Collapsible Sidebar</p>
+                                    <span class="activity-time">2 hours ago</span>
+                                </div>
+                            </div>
+                            <div class="activity-item">
+                                <div class="activity-icon">
+                                    <i class="fas fa-file-alt"></i>
+                                </div>
+                                <div class="activity-content">
+                                    <h4>New Assignment</h4>
+                                    <p>Level 2 - Task Management App</p>
+                                    <span class="activity-time">1 day ago</span>
+                                </div>
+                            </div>
+                            <div class="activity-item">
+                                <div class="activity-icon">
+                                    <i class="fas fa-comments"></i>
+                                </div>
+                                <div class="activity-content">
+                                    <h4>Mentor Feedback</h4>
+                                    <p>Great work on the responsive design!</p>
+                                    <span class="activity-time">2 days ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Overlay for mobile -->
+        <div class="overlay" id="overlay"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
