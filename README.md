@@ -1,6 +1,6 @@
-# 🎯 Level 1 - Collapsible Sidebar
+# 🎯 Level 1 - Collapsible Sidebar (Elevvo Internship Project)
 
-A modern, responsive collapsible sidebar component built with HTML, CSS, and JavaScript. This project demonstrates advanced UI/UX design principles with smooth animations, responsive behavior, and professional styling.
+A modern, responsive collapsible sidebar component built with HTML, CSS, and JavaScript. Developed as part of my frontend web development internship at Elevvo, this project demonstrates advanced UI/UX design principles with smooth animations, responsive behavior, and professional styling
 
 ## 🌟 Features
 
@@ -21,18 +21,6 @@ A modern, responsive collapsible sidebar component built with HTML, CSS, and Jav
 - **Desktop**: Fixed sidebar with smooth collapse/expand functionality
 - **Mobile**: Overlay sidebar with hamburger menu and backdrop
 - **Optimal Height**: Sidebar stops exactly where main content sections begin
-
-## 🚀 Live Demo
-
-[View Live Demo](https://devderrickshema.github.io/Level1-collapsiblesidebar/)
-
-## 📸 Screenshots
-
-### Desktop View
-![Desktop Sidebar](https://via.placeholder.com/800x600/667eea/ffffff?text=Desktop+Sidebar+View)
-
-### Mobile View
-![Mobile Sidebar](https://via.placeholder.com/400x800/764ba2/ffffff?text=Mobile+Sidebar+View)
 
 ## 🛠️ Technologies Used
 
@@ -56,12 +44,12 @@ Level1-collapsiblesidebar/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/devderrickshema/Level1-collapsiblesidebar.git
+   git clone https://github.com/devderrickshema/Collapsible-Sidebar-Level1.git
    ```
 
 2. **Navigate to project directory**
    ```bash
-   cd Level1-collapsiblesidebar
+   cd Collapsible-Sidebar-Level1
    ```
 
 3. **Open in browser**
@@ -80,7 +68,6 @@ Level1-collapsiblesidebar/
 ### Keyboard Shortcuts
 - `Alt + 1-9`: Quick navigation to menu items
 - `Ctrl + B`: Toggle sidebar (desktop only)
-- `Escape`: Close mobile sidebar
 
 ### Customization
 The sidebar is highly customizable through CSS variables and JavaScript configuration:
@@ -147,14 +134,10 @@ The sidebar is highly customizable through CSS variables and JavaScript configur
 
 ## 👨‍💻 Author
 
-**Derrick Shema Rutaganira**
+**RUTAGANIRA SHEMA Derrick**
 - GitHub: [@devderrickshema](https://github.com/devderrickshema)
-- LinkedIn: [Derrick Shema](https://linkedin.com/in/derrick-shema)
-- Email: derrick@elevvo.com
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- LinkedIn: [Derrick Shema](https://www.linkedin.com/in/shederrick03/)
+- Email: shederrick03@gmail.com
 
 ## 🙏 Acknowledgments
 
@@ -169,10 +152,6 @@ If you have any questions or need help with this project:
 
 1. **Open an Issue** - For bugs or feature requests
 2. **Discussion Tab** - For general questions
-3. **Email Support** - derrick@elevvo.com
+3. **Email Support** - shederrick03@gmail.com
 
 ---
-
-⭐ **Star this repository** if you found it helpful!
-
-**Made with ❤️ during Elevvo Frontend Development Internship**
